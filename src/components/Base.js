@@ -1,8 +1,8 @@
 import React from "react";
 import '../assets/css/bg.css'
 import siteTitle from '../assets/images/login/site_title.png'
-import AdminLogin from "../components/AdminLogin";
-
+// import AdminLogin from "../components/AdminLogin";
+// import Home from "../components/Home";
 
 
 
@@ -21,7 +21,7 @@ class Base extends React.Component{
                 <div className="topNav">
                     <img src={siteTitle} alt="图片加载失败"/>
                 </div>
-                <AdminLogin/>
+
                 <div className="footerNav">
 
                 </div>
