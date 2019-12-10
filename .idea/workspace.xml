@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf53be54-7f78-4510-a270-5fb5aa79b5de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/home/58d5b9dd33d448b1a3430eb19f6ffd48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/home/7f0ec8d9426043b3b22d19610d71c86f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/icon/022608702e7996217ab6d5c288344244.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/icon/0cd80d8dec85251f4243755c3362fa17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/icon/6026b0f95d91c019f3b8dd9b238a9c36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/icon/aa3610d3f806ac61066dda86184e6155.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/icon/b48d4b916075f636db02c11ed890d914.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/icon/d242ef0c714a48f627ee03804497f756.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/icon/e4cef0895802130294f4c62272ef1e69.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/icon/e63ce1e68cdbd9cefa5f76a062c8c878.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/icon/e96b4cab872ad3d73b2a57a0c8824fa5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/login/site_title.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/base/site_title.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Base.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Base.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
     </list>
@@ -21,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -34,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images/home" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images/home/icon" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -43,11 +48,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\WebstormProjects\video_rec\src\assets\images\home\icon" />
+      <recent name="C:\Users\Administrator\WebstormProjects\video_rec\src\assets\images\home" />
       <recent name="C:\Users\Administrator\WebstormProjects\video_rec\src\assets\images\login" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\WebstormProjects\video_rec\src\assets\images\home" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\WebstormProjects\video_rec\src\assets\images\base" />
       <recent name="C:\Users\Administrator\WebstormProjects\video_rec\src\assets\images\login" />
     </key>
   </component>
@@ -89,7 +96,8 @@
       <option name="presentableId" value="Default" />
       <updated>1575696136801</updated>
       <workItem from="1575696137966" duration="14069000" />
-      <workItem from="1575867702939" duration="10969000" />
+      <workItem from="1575867702939" duration="11077000" />
+      <workItem from="1575939780433" duration="12562000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1575872907231</created>
@@ -105,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575874565981</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="up">
+      <created>1575878879793</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575878879793</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

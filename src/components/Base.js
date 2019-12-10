@@ -1,6 +1,6 @@
 import React from "react";
 import '../assets/css/bg.css'
-import siteTitle from '../assets/images/login/site_title.png'
+import siteTitle from '../assets/images/base/site_title.png'
 // import AdminLogin from "../components/AdminLogin";
 // import Home from "../components/Home";
 

@@ -1,0 +1,132 @@
+.main {
+    min-width: 1000px;
+}
+
+.topBox {
+    position: absolute;
+    top: 10px;
+
+}
+
+.homeLogo {
+    margin-left: 100px;
+}
+
+.homeSearchBox {
+    left: 50%;
+    margin-left: -220px;
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    line-height: 34px;
+}
+
+.homeSearchBox input {
+    margin:  10px auto;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    outline: none;
+}
+
+.homeSearchBox button {
+    position: absolute;
+
+    width: 80px;
+    height: 40px;
+    left: 50%;
+    margin-top: 10px;
+    margin-left: 145px;
+    color: white;
+    background: #24A5FF;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.Container {
+    min-width: 1000px;
+    width: 90%;
+}
+
+.middleNav {
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.leftNav {
+    height: 68px;
+    position: relative;
+    margin-bottom: 40px;
+
+}
+
+.leftNav ul {
+    list-style: none;
+
+}
+.leftNav li {
+    list-style-type: none;
+    float: left;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+.leftNav li a {
+    display: block;
+    line-height: 22px;
+    height: 42px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.leftNav a{
+    color: black;
+    cursor: pointer;
+}
+
+
+
+.leftNav img {
+    border: 0;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    margin-right: 6px;
+    vertical-align: text-bottom;
+}
+
+.middleNav{
+    height: 68px;
+    margin-bottom: 40px;
+}
+
+.middleNav li {
+    width: 7%;
+    float: left;
+    position: relative;
+    height: 100%;
+    list-style: none;
+}
+
+.middleNav li a {
+    display: inline-block;
+}
+
+.middleNav a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*.middleN a:hover {*/
+/*    text-decoration: #24A5FF;*/
+/*}*/
