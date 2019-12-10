@@ -67,6 +67,8 @@ function MiddleNav() {
         "aa3610d3f806ac61066dda86184e6155",
         "022608702e7996217ab6d5c288344244",
         "d242ef0c714a48f627ee03804497f756",
+        "6026b0f95d91c019f3b8dd9b238a9c36",
+        "e96b4cab872ad3d73b2a57a0c8824fa5",
     ];
 
     const imagesObj = imagesArray.map(item => require("../assets/images/home/icon/" + item + ".png"));
@@ -78,29 +80,24 @@ function MiddleNav() {
         <div className="middleNav">
             <Container style={{width:"100%", maxWidth: 1600}}>
                 <Row>
-                    <Col xs={6}>
+                    <Col xs={3}>
                         <ul className="leftNav">
                             <li>
-
                                 <a href="https://www.baidu.com"><img src={imagesObj[0]} alt="加载失败"/>剧集</a>
-
                                 <a href="https://www.baidu.com"><img src={imagesObj[1]} alt="加载失败"/>综艺</a>
-                            </li>
+                             </li>
                             <li>
-
                                 <a href="https://www.baidu.com"><img src={imagesObj[2]} alt="加载失败"/>电影</a>
-
                                 <a href="https://www.baidu.com"><img src={imagesObj[3]} alt="加载失败"/>动漫</a>
                             </li>
                             <li>
                                 <a href="https://www.baidu.com"><img src={imagesObj[4]} alt="加载失败"/>少儿</a>
-
                                 <a href="https://www.baidu.com"><img src={imagesObj[5]} alt="加载失败"/>纪录片</a>
                             </li>
                         </ul>
                     </Col>
                     <Col xs={6}>
-                        <ul className="middleNav">
+                        <ul className="middleSmallNav">
                             <li>
                                 <a href="https://www.baidu.com">文化</a>
                                 <a href="https://www.baidu.com">教育</a>
@@ -114,12 +111,12 @@ function MiddleNav() {
                                 <a href="https://www.baidu.com">直播</a>
                             </li>
                             <li>
-                                <a href="https://www.baidu.com">时尚</a>
-                                <a href="https://www.baidu.com">搞笑</a>
-                            </li>
-                            <li>
                                 <a href="https://www.baidu.com">音乐</a>
                                 <a href="https://www.baidu.com">汽车</a>
+                            </li>
+                            <li>
+                                <a href="https://www.baidu.com">时尚</a>
+                                <a href="https://www.baidu.com">搞笑</a>
                             </li>
                             <li>
                                 <a href="https://www.baidu.com">旅游</a>
@@ -137,11 +134,24 @@ function MiddleNav() {
                                 <a href="https://www.baidu.com">公益</a>
                                 <a href="https://www.baidu.com">科技</a>
                             </li>
+                            <li>
+                                <a href="https://www.baidu.com">财经</a>
+                                <a href="https://www.baidu.com">发现</a>
+                            </li>
 
                         </ul>
                     </Col>
-                    <Col>
-
+                    <Col xs={3}>
+                        <ul className="rightNav">
+                            <li>
+                                <img src={imagesObj[6]} alt="加载失败"/>
+                                <a href="https://www.baidu.com">片库</a>
+                            </li>
+                            <li>
+                                <img src={imagesObj[7]} alt="加载失败"/>
+                                <a href="https://www.baidu.com">下载中心</a>
+                            </li>
+                        </ul>
                     </Col>
                 </Row>
             </Container>

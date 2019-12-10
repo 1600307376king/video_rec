@@ -1,11 +1,12 @@
 .main {
     min-width: 1000px;
+    height: 100%;
 }
 
 .topBox {
     position: absolute;
     top: 10px;
-
+    bottom: 0;
 }
 
 .homeLogo {
@@ -51,6 +52,7 @@
     border-bottom-right-radius: 20px;
 }
 
+/*----------*/
 .Container {
     min-width: 1000px;
     width: 90%;
@@ -58,42 +60,36 @@
 
 .middleNav {
     margin-top: 10px;
-    height: 100%;
+    height: auto;
     width: 100%;
     overflow: hidden;
 }
+/*------------*/
 .leftNav {
-    height: 68px;
-    position: relative;
-    margin-bottom: 40px;
-
+    height: 84px;
 }
 
 .leftNav ul {
     list-style: none;
-
 }
 .leftNav li {
     list-style-type: none;
     float: left;
     height: 100%;
-    padding-bottom: 20px;
+    padding: 20px;
+    font-size: 14px;
 }
 
 .leftNav li a {
     display: block;
-    line-height: 22px;
     height: 42px;
-    padding-bottom: 20px;
     overflow: hidden;
 }
 
-.leftNav a{
+.leftNav a {
     color: black;
     cursor: pointer;
 }
-
-
 
 .leftNav img {
     border: 0;
@@ -103,30 +99,37 @@
     margin-right: 6px;
     vertical-align: text-bottom;
 }
-
-.middleNav{
-    height: 68px;
-    margin-bottom: 40px;
+/*-------------*/
+.middleSmallNav {
+    height: 84px;
+    font-size: 14px;
 }
 
-.middleNav li {
-    width: 7%;
+.middleSmallNav li {
+    width: 10%;
     float: left;
-    position: relative;
-    height: 100%;
     list-style: none;
+    padding: 20px;
 }
 
-.middleNav li a {
-    display: inline-block;
+.middleSmallNav li a {
+    display: block;
 }
 
 .middleNav a {
     color: black;
     cursor: pointer;
     text-decoration: none;
+    height: 42px;
+}
+/*--------------*/
+.rightNav {
+    height: 84px;
+    font-size: 14px;
 }
 
-/*.middleN a:hover {*/
-/*    text-decoration: #24A5FF;*/
-/*}*/
+.rightNav li {
+    float: left;
+    list-style: none;
+}
+
