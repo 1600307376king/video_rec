@@ -25,10 +25,6 @@ function ControlledCarousel() {
                     src={carouselImage1}
                     alt="First slide"
                 />
-                {/*<Carousel.Caption>*/}
-                {/*    <h3>First slide label</h3>*/}
-                {/*    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>*/}
-                {/*</Carousel.Caption>*/}
             </Carousel.Item>
             <Carousel.Item>
                 <img
@@ -36,11 +32,6 @@ function ControlledCarousel() {
                     src={carouselImage2}
                     alt="Third slide"
                 />
-
-                {/*<Carousel.Caption>*/}
-                {/*    <h3>Second slide label</h3>*/}
-                {/*    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>*/}
-                {/*</Carousel.Caption>*/}
             </Carousel.Item>
         </Carousel>
     )
@@ -48,11 +39,11 @@ function ControlledCarousel() {
 
 function TopBox() {
     return (
-        <div className="topBox">
-            <Container>
+        <div className="topBox" >
+            <Container style={{width:"100%", maxWidth: 1600}}>
                 <Row>
-                    <Col className="homeLogo"><img src={homeLogo} alt="加载失败"/></Col>
-                    <Col className="homeSearchBox"><input type="text"/><button>搜全网</button></Col>
+                    <Col className="homeLogo" xs={3}><img src={homeLogo} alt="加载失败"/></Col>
+                    <Col className="homeSearchBox" xs={5}><input type="text"/><button>搜全网</button></Col>
                 </Row>
             </Container>
         </div>
