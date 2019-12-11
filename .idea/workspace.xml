@@ -2,6 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf53be54-7f78-4510-a270-5fb5aa79b5de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/hit_video/2e9ba7e798c648f2ab77d38a986eb01c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/hit_video/5112ba34832e4dedbff9dcf385b93f56.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/hit_video/ad8dd5af29244dff8fb0379734b53d54.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/hit_video/b6269a33d77b42f18207beed85865792.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/hit_video/cf92182b65e54a9b8daa3314cd9f46e0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/hit_video/qyfr92p3saq0f1zaf5l1575015784097.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/navVideo/1098f31c65764a1ba63c4613fa5935b0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/navVideo/11caa40e457044df9ab8968f45e77015.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/navVideo/1af7178c69af491e980f82faf52a866d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/navVideo/244a734e73054369b030502b84f95486.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/navVideo/287a6eb67dd2401b9fcbe563191f8722.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/navVideo/657144a4621f43bd8b5ad41b463e7e50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/navVideo/9413796fb66d4c42a5b3c71ba6fddfbf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/navVideo/b98f632af33a45bdac0607a6fa4e3f12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/navVideo/c12970fcbd71411492d9e49c4bc72737.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/navVideo/edc894cde3b74369aa2627fa7c9c04f1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home/refresh.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
@@ -28,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images/home/icon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images/home/navVideo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -38,13 +55,17 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\WebstormProjects\video_rec\src\assets\images\home\icon" />
-      <recent name="C:\Users\Administrator\WebstormProjects\video_rec\src\assets\images\home" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\WebstormProjects\video_rec\src\assets\images\home\navVideo" />
+      <recent name="C:\Users\Administrator\WebstormProjects\video_rec\src\assets\images\home\hit_video" />
+      <recent name="C:\Users\Administrator\WebstormProjects\video_rec\src\assets\images\base" />
       <recent name="C:\Users\Administrator\WebstormProjects\video_rec\src\assets\images\login" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\WebstormProjects\video_rec\src\assets\images\base" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\WebstormProjects\video_rec\src\assets\images\home\navVideo" />
+      <recent name="C:\Users\Administrator\WebstormProjects\video_rec\src\assets\images\home\hit_video" />
+      <recent name="C:\Users\Administrator\WebstormProjects\video_rec\src\assets\images\home" />
+      <recent name="C:\Users\Administrator\WebstormProjects\video_rec\src\assets\images\home\icon" />
       <recent name="C:\Users\Administrator\WebstormProjects\video_rec\src\assets\images\login" />
     </key>
   </component>
@@ -87,7 +108,8 @@
       <updated>1575696136801</updated>
       <workItem from="1575696137966" duration="14069000" />
       <workItem from="1575867702939" duration="11077000" />
-      <workItem from="1575939780433" duration="19181000" />
+      <workItem from="1575939780433" duration="19530000" />
+      <workItem from="1576026703564" duration="23287000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1575872907231</created>
@@ -124,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575961500476</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="up">
+      <created>1575970710151</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575970710153</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

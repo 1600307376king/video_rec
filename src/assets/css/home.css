@@ -12,6 +12,8 @@
     min-width: 1200px;
 }
 
+
+
 .homeLogo {
     margin-left: 100px;
 }
@@ -40,7 +42,6 @@
     margin-left: -20px;
     width: 80px;
     height: 40px;
-
     color: white;
     background: #24A5FF;
     text-align: center;
@@ -52,37 +53,72 @@
 }
 
 /*----------*/
-.Container {
-    min-width: 1000px;
-    width: 90%;
+@media screen and (min-width: 1551px){
+    .middleNav {
+        font-size: 16px;
+        /*margin: 0 auto;*/
+    }
+    .leftNav img{
+        width: 24px;
+        height: 24px;
+    }
+    /*.hitVideo {*/
+    /*    margin: 0 auto;*/
+    /*}*/
+    /*.navVideo {*/
+    /*    margin: 0 auto;*/
+    /*}*/
+}
+
+
+@media screen and (max-width: 1551px) {
+    .middleNav {
+        font-size: 14px;
+        /*margin: 0 100px;*/
+    }
+    .leftNav img {
+        width: 22px;
+        height: 22px;
+    }
+    /*.hitVideo {*/
+    /*    margin: 0 100px;*/
+    /*}*/
+    /*.navVideo {*/
+    /*    margin: 0 100px;*/
+    /*}*/
 }
 
 .middleNav {
-    margin-top: 10px;
+    margin: 0 auto;
+    padding-top: 10px;
     height: auto;
-    width: 100%;
+    width: 90%;
     overflow: hidden;
 }
+
 /*------------*/
 .leftNav {
-    height: 84px;
+    height: 124px;
+    padding: 0;
 }
 
 .leftNav ul {
     list-style: none;
 }
+
 .leftNav li {
     list-style-type: none;
     float: left;
     height: 100%;
-    padding: 20px;
-    font-size: 14px;
+    padding: 20px 10px 20px 0;
+    width: 33%;
 }
 
 .leftNav li a {
     display: block;
     height: 42px;
     overflow: hidden;
+    padding-left: 0;
 }
 
 .leftNav a {
@@ -92,23 +128,22 @@
 
 .leftNav img {
     border: 0;
-    width: 22px;
-    height: 22px;
     display: inline-block;
     margin-right: 6px;
     vertical-align: text-bottom;
 }
 /*-------------*/
 .middleSmallNav {
-    height: 84px;
-    font-size: 14px;
+    height: 124px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .middleSmallNav li {
     width: 10%;
     float: left;
     list-style: none;
-    padding: 20px;
+    padding: 20px 5px 20px 5px;
 }
 
 .middleSmallNav li a {
@@ -118,20 +153,21 @@
 .middleNav a {
     color: black;
     cursor: pointer;
-    text-decoration: none;
     height: 42px;
 }
 /*--------------*/
 .rightNav {
-    height: 84px;
-    font-size: 14px;
+    height: 124px;
     text-align: center;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .rightNav li {
+    width: 50%;
     float: left;
     list-style: none;
-    padding: 20px;
+    padding: 20px 10px 20px 10px;
 }
 
 .rightNav li a {
@@ -142,4 +178,246 @@
     width: 46px;
     height: 46px;
 }
+
+/*--------------*/
+
+.videoBlock {
+
+}
+
+/*---------------*/
+
+.hitVideo {
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    padding-bottom: 12px;
+}
+
+.hitTop {
+    margin: 12px auto;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.hitTop h2 {
+    height: 24px;
+    line-height: 24px;
+    width: 100%;
+    margin: 0 auto;
+    font-weight: 700;
+}
+
+.hitTop a {
+    float: right;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+.hitTop img {
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.hitVideoList {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.videoBox {
+    width: 100%;
+    height: 100%;
+}
+
+.videoBox img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.videoTitle {
+    font-weight: 700;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.videoTitle a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.videoBrief {
+    font-size: 12px;
+    color: #999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.videoType {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    font-size: 12px;
+
+    background-color: rgba(238, 201, 0, 0.9);
+    color: white;
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.videoUpdateDate {
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
+    font-size: 12px;
+    color: white;
+
+}
+
+/*---------------*/
+
+.navVideo {
+    margin: 0 auto;
+    width: 90%;
+    position: relative;
+}
+
+.navVideoTop {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    min-height: 57px;
+    padding-bottom: 12px;
+}
+
+.navVideoTitle {
+    width: auto;
+    height: auto;
+    display: block;
+    float: left;
+    margin-right: 30px;
+    min-height: 45px;
+}
+
+.navVideoTitle a {
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    display: block;
+    float: left;
+}
+
+.navVideoTabs {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    white-space: nowrap;
+    float: left;
+}
+.navVideoTab {
+    padding: 5px;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    font-size: 14px;
+    height: 35px;
+}
+
+.navVideoTab:hover {
+    color: dodgerblue;
+}
+
+.tabActivateLine {
+    /*width: 20px;*/
+    width: 100%;
+    height: 3px;
+    background: white;
+}
+
+.navVideoBlocks {
+    width: 100%;
+}
+
+.navVideoBrief {
+    padding: 20px 20px 5px 20px;
+    background: #F9F7F6;
+}
+
+.navVideoBrief a {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.navVideoBrief div {
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.navVideoBlock .navVideoBlockLeader{
+    display: block;
+}
+
+.navVideoBlock {
+    margin-bottom: 10px;
+}
+
+.navVideoBlock img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.navVideoBlock a {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.navVideoBlock div {
+    font-size: 12px;
+    color: #999999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.navVideoBlockLeader img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.homeFooter {
+    width: 90%;
+    margin: 0 auto;
+    height: 200px;
+}
+
 
