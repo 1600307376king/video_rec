@@ -1,6 +1,4 @@
 import React from "react";
-import carouselImage1 from '../assets/images/home/7f0ec8d9426043b3b22d19610d71c86f.jpg';
-import carouselImage2 from '../assets/images/home/58d5b9dd33d448b1a3430eb19f6ffd48.jpg';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {useState} from 'react';
@@ -17,19 +15,33 @@ function ControlledCarousel() {
         setIndex(selectedIndex);
         setDirection(e.direction);
     };
+    const carouselImageArray = [
+        '7f0ec8d9426043b3b22d19610d71c86f',
+        '58d5b9dd33d448b1a3430eb19f6ffd48',
+        '0fd0c08be69045b095490b11e71f1ac3'
+    ];
+
+    const carouselImageObj = carouselImageArray.map(item => require("../assets/images/home/carousel/" + item + ".jpg"));
     return(
         <Carousel activeIndex={index} direction={direction} onSelect={handleSelect}>
-            <Carousel.Item>
+            <Carousel.Item style={{}}>
                 <img
-                    className="d-block w-100"
-                    src={carouselImage1}
+                    className="carousel1"
+                    src={carouselImageObj[0]}
                     alt="First slide"
                 />
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    className="d-block w-100"
-                    src={carouselImage2}
+                    className="carousel1"
+                    src={carouselImageObj[1]}
+                    alt="Third slide"
+                />
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="carousel1"
+                    src={carouselImageObj[2]}
                     alt="Third slide"
                 />
             </Carousel.Item>

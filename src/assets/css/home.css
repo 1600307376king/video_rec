@@ -12,8 +12,6 @@
     min-width: 1200px;
 }
 
-
-
 .homeLogo {
     margin-left: 100px;
 }
@@ -52,22 +50,43 @@
     border: none;
 }
 
+/*-------------*/
+.carousel-inner img {
+    display: block;
+
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto 100%;
+}
+
+.carousel-indicators {
+    margin: 15px auto;
+}
+
+.carousel-indicators li {
+   border-left: 0;
+    border-right: 0;
+}
+
+.carousel-indicators .active {
+
+    width:30px;
+    height: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+
 /*----------*/
 @media screen and (min-width: 1551px){
     .middleNav {
         font-size: 16px;
-        /*margin: 0 auto;*/
     }
     .leftNav img{
         width: 24px;
         height: 24px;
     }
-    /*.hitVideo {*/
-    /*    margin: 0 auto;*/
-    /*}*/
-    /*.navVideo {*/
-    /*    margin: 0 auto;*/
-    /*}*/
 }
 
 
@@ -80,12 +99,6 @@
         width: 22px;
         height: 22px;
     }
-    /*.hitVideo {*/
-    /*    margin: 0 100px;*/
-    /*}*/
-    /*.navVideo {*/
-    /*    margin: 0 100px;*/
-    /*}*/
 }
 
 .middleNav {
@@ -94,6 +107,17 @@
     height: auto;
     width: 90%;
     overflow: hidden;
+}
+
+.middleNav a {
+    color: black;
+    cursor: pointer;
+    height: 42px;
+    text-decoration: none;
+}
+
+.middleNav a:hover {
+    color: #24A5FF;
 }
 
 /*------------*/
@@ -121,7 +145,7 @@
     padding-left: 0;
 }
 
-.leftNav a {
+.leftNav.li a {
     color: black;
     cursor: pointer;
 }
@@ -150,11 +174,6 @@
     display: block;
 }
 
-.middleNav a {
-    color: black;
-    cursor: pointer;
-    height: 42px;
-}
 /*--------------*/
 .rightNav {
     height: 124px;
@@ -356,8 +375,12 @@
     width: 100%;
 }
 
+.navVideoBlock a:hover {
+    color: #24A5FF;
+}
+
 .navVideoBrief {
-    padding: 20px 20px 5px 20px;
+    padding: 10px 20px 15px 20px;
     background: #F9F7F6;
 }
 
@@ -412,6 +435,10 @@
 .navVideoBlockLeader img {
     width: 100%;
     border-radius: 5px;
+}
+
+.navVideoBlockLeader a:hover {
+    color: #24A5FF;
 }
 
 .homeFooter {
